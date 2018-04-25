@@ -87,10 +87,11 @@ hexo -v #查看是否安装成功
      hexo s    #(启动服务 hexo server缩写)
      ```
      好，了解命令之后开始我们的操作。
-     1. hexo clean
-     2. hexo g
-     3. hexo s --port 8777 （指定端口，默认4000）
-     
+     ```
+      hexo clean
+      hexo g
+      hexo s --port 8777 （指定端口，默认4000）
+     ```
      这时候,看到如下界面就成功了！
      
      ![upload successful](\images\pasted-11.png)
@@ -169,5 +170,3 @@ theme: next
   浏览器打开:http://localhost:8777/admin
   
   OK!!  进去之后就可以管理你当前博客的文章了...
-  
-     
